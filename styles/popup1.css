@@ -14,8 +14,12 @@ body {
 
 }
 p{
+
   font-size: large; 
   color: white; 
+}
+#head{
+  font-size: x-large;
 }
 
 button{
