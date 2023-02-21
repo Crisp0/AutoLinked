@@ -13,18 +13,23 @@ body {
   flex-direction: column;
 
 }
+p{
+  font-size: large; 
+  color: white; 
+}
 
 button{
   padding:15px;
   border: none;
   width: 200px;
   border-radius: 10px;
-  background-color: green;
+  background-color: #00a0dc;
+  margin-bottom: 10px;
 }
 .linkedin-head{
   height: 20%;
-  width: 80%;
-  background-color: #424242;
+  width: 76%;
+  background-color: #0077b5;
   color: white;
   font-size:15px;
   padding:0 30px;
@@ -39,12 +44,19 @@ button{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #000000;
+  background-color: white;
 }
 .connect-progressbar{
   height: 70%;
 }
 #progerss-number{
   font-size: 30px;
-  color: white;
+  color: #0077b5;
+}
+#connect{
+  color: aliceblue;
+  font-weight: bold;
+}
+#number-invite{
+  color: #0077b5;
 }
