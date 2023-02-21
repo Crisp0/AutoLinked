@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "LinkedIn",
+  "name": "AutoLinked",
   "version": "1.0",
   "action": {
     "default_popup": "./pages/popup.html"
