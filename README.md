@@ -1,10 +1,8 @@
 # AutoLinked
 
-## Overview
+A Chrome extension that's able to send connection requests to a list of people in a LinkedIn search. The extension uses the "chrome.tabs" and "chrome.runtime" APIs.
 
-a chrome extension that's able to send connection requests to a list of people in a LinkedIn search. The extension uses the "chrome.tabs" and "chrome.runtime" APIs.
-
-#### How to run it?
+## How to run it?
 
   1. Open Google Chrome browser and navigate to chrome://extensions/.
   2. Enable developer mode by toggling the switch in the top right-hand corner of the page.
