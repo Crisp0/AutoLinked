@@ -14,8 +14,8 @@ A Chrome extension that's able to send connection requests to a list of people i
 
 Every element in a webpage will have a unique 'id' or 'class' for it to function properly as each one has a different use and different property for its unique functionality.
 
-Here we check if the inner text of a button is "connect" by filtering and if it is satisfied, it is clicked. After clicking we see that another popup comes to send message with a button "send". This time we use the attribute "aria-label" as the selector because the 'id' and 'class' are not unique for the button. 
-With an interval of 3 seconds each, the buttons "connect" and "send" are clicked-on in the respective order.
+Here we check if the inner text of a button is "connect" by filtering and if it is satisfied, it is clicked. After clicking we see that another popup comes to send a message with the button "send". This time we use the attribute "aria-label" as the selector because the 'id' and 'class' are not unique for the button. 
+With an interval of 3 seconds each, the buttons "connect" and "send" are clicked on in the respective order.
 
 
 
