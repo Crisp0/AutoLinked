@@ -1,8 +1,7 @@
 (() => {
-  chrome.runtime.onMessage.addListener((obj, sender, response) => {
-    const { type, value, videoId } = obj;
+  chrome.runtime.onMessage.addListener((obj) => {
+    const {type} = obj;
     if (type === "connect") {
-      currentVideo = videoId;
       newPageLoaded();
     } else {
       console.log("reject");
