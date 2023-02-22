@@ -1,15 +1,14 @@
 # AutoLinked
 a chrome extension that's able to send connection requests to a list of people in a LinkedIn search. The extension uses the "chrome.tabs" and "chrome.runtime" APIs
 
-## Working
-### Basic Content
+## Overview
 The function uses the Chrome Extension API to listen for messages from the background script of a Chrome extension. 
 The "newPageLoaded" function is defined as an asynchronous function that is called when the "connect" message is received. It retrieves all the "button" elements in the current web page and filters out the ones whose text content is not equal to "Connect". It then clicks on the first "Connect" button that it finds and clicks on the "Send now" button if it exists.
 
 The "filter" function is a helper function that takes an array of "button" elements as input and returns a new array containing only the "Connect" buttons.
 
 Overall, this code appears to be part of a larger Chrome extension that automates the process of connecting to a video conferencing session by automatically clicking the "Connect" button.
-### Popup
+#### Popup
 The function uses the Chrome Extension API to send a message to a content script whenever the active tab is on LinkedIn.
 
 The function uses the "setInterval" method to repeatedly call a callback function every 3 seconds. The callback function queries the active tab using the "chrome.tabs.query" method and checks if the URL of the active tab includes "www.linkedin.com". If the URL matches, the function sends a message to the content script with the URL and a message type of "connect".
@@ -20,7 +19,7 @@ When the "connect" button is clicked, the code checks whether the "intervalId" v
 
 Chrome extension that automates the process of connecting with people on LinkedIn by sending messages at regular intervals. The extension uses the "chrome.tabs" and "chrome.runtime" APIs to communicate with the active tab and the background script of the extension, respectively.
 
-## manifest.json
+#### manifest.json
 The Chrome extension requires a 'manifest.json' file where all the configurations are stored. The 'manifest.json' file contains all the necessary information required to build the Chrome extension. It is the first file the extension checks and everything is loaded from this single file.
 
 ```json
